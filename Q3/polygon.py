@@ -1,5 +1,6 @@
 import turtle
 
+
 def draw_edge(length, depth):
     """
     Recursively draw one edge of the fractal polygon.
@@ -11,12 +12,13 @@ def draw_edge(length, depth):
     else:
         length /= 3  # divide edge into 3 parts
         draw_edge(length, depth - 1)
-        turtle.left(60)       # start indentation
+        turtle.right(60)  # start indentation
         draw_edge(length, depth - 1)
-        turtle.right(120)     # second side of indentation
+        turtle.left(120)  # second side of indentation
         draw_edge(length, depth - 1)
-        turtle.left(60)       # return to original direction
+        turtle.right(60)  # return to original direction
         draw_edge(length, depth - 1)
+
 
 def draw_polygon(sides, length, depth):
     """
@@ -24,9 +26,12 @@ def draw_polygon(sides, length, depth):
     Each side is replaced with a recursive edge pattern.
     """
     angle = 360 / sides
+    colours = ["blue", "green", "red", "purple", "maroon"]
     for _ in range(sides):
+        turtle.color(colours[_])
         draw_edge(length, depth)
         turtle.right(angle)
+
 
 def main():
     # Get user input
@@ -44,6 +49,7 @@ def main():
 
     turtle.hideturtle()
     turtle.done()
+
 
 if __name__ == "__main__":
     main()
