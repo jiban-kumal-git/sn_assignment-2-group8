@@ -1,5 +1,5 @@
-Most Stable: Station DARWIN-AIRPORT: StdDev 1.2캜
-Most Stable: Station HORN-ISLAND: StdDev 1.2캜
-Most Variable: Station RUTHERGLEN-RESEARCH: StdDev 6.9캜
-Most Variable: Station WAGGA-WAGGA-AMO: StdDev 6.9캜
-Most Variable: Station WYALONG-POST-OFFICE: StdDev 6.9캜
+Most Stable: Station DARWIN-AIRPORT: StdDev 1.2째C
+Most Stable: Station HORN-ISLAND: StdDev 1.2째C
+Most Variable: Station RUTHERGLEN-RESEARCH: StdDev 6.9째C
+Most Variable: Station WAGGA-WAGGA-AMO: StdDev 6.9째C
+Most Variable: Station WYALONG-POST-OFFICE: StdDev 6.9째C

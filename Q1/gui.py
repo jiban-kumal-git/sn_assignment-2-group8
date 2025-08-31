@@ -13,7 +13,7 @@ def process_files():
         return
 
     try:
-        with open("raw_text.txt", "r") as file:
+        with open('raw_text.txt', "r") as file:
             raw_text = file.read()
     except FileNotFoundError:
         messagebox.showerror("File Error", "raw_text.txt not found.")

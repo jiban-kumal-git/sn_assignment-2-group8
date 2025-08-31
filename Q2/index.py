@@ -17,7 +17,7 @@ def get_season(month):
 
 # Load all CSVs and reshape
 def load_all_data(folder):
-    all_files = glob(os.path.join(folder, "*.csv"))
+    all_files = glob(os.path.join(folder, "temperatures/*.csv"))
     if not all_files:
         print("No CSV files found.")
         return pd.DataFrame()
