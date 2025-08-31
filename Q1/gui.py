@@ -9,7 +9,7 @@ def process_files():
         shift1 = int(shift1_entry.get())
         shift2 = int(shift2_entry.get())
     except ValueError:
-        messagebox.showerror("Input Error", "Please enter valid integer values for shifts.")
+        messagebox.showerror("Input Error", "Please enter valid integer values for both shifts.")
         return
 
     try:
