@@ -110,7 +110,7 @@ Display a message box indicating whether the decryption was successful.
 
 Input: raw_text.txt contains the sentence: "The quick brown fox jumps over the lazy dog."
 
-Shifts: 3 and 5
+Shifts: 3 and 2
 
 Expected Output:
 
