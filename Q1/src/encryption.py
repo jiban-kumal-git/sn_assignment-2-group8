@@ -12,7 +12,7 @@ def shift_char(c, shift):
     elif c.isupper():
         return chr(((ord(c) - ord('A') + shift) % 26) + ord('A'))
     else:
-        return c   # No shift for non-letter characters
+        return c   # No shift for non-letter characters 
 
 def encrypt_text(text, shift1, shift2):
     """
