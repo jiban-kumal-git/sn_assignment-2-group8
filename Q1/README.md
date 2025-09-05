@@ -1,14 +1,25 @@
 📂 Project Structure
 Q1/
-├── __pycache__/                # Compiled Python files (auto-generated)
-├── gui.py                      # GUI application logic
-├── encryption.py               # Encryption and decryption functions
-├── file_operations.py          # Utility functions for file handling
-├── raw_text.txt                # Sample plaintext input
-├── encrypted_text.txt          # Sample encrypted output
-└── decrypted_text.txt          # Sample decrypted output
+├── data/
+│ └── raw_text.txt                 # Sample plaintext input
+└── src/
+├── init.py
+├── gui.py                         # GUI application logic
+├── encryption.py                  # Encryption and decryption functions
+└── file_operations.py             # Utility functions for file handling
 
-COMPONENTS BREAKDOWNS:
+# Running the Application
+
+1. Navigate to the `src` directory:
+   cd Q1/src
+   python gui.py
+
+# DEPENDENCIES
+tkinter for the GUI:
+pip install tk
+
+
+# COMPONENTS BREAKDOWNS:
 1. gui.py
 
 Purpose: Provides the graphical interface for user interaction.
@@ -61,7 +72,7 @@ Purpose: Stores the decrypted version of encrypted_text.txt.
 
 Content: The result of decrypting encrypted_text.txt back to its original form.
 
-⚙️ SETUP AND EXECUTION
+# SETUP AND EXECUTION
 Prerequisites
 
 Python 3.x
@@ -95,7 +106,7 @@ Save the decrypted content to decrypted_text.txt.
 
 Display a message box indicating whether the decryption was successful.
 
-🧪 TESTING AND VARIFICATON
+# TESTING AND VARIFICATON
 
 Input: raw_text.txt contains the sentence: "The quick brown fox jumps over the lazy dog."
 
@@ -107,7 +118,7 @@ encrypted_text.txt should contain the encrypted version of the input text.
 
 decrypted_text.txt should match the original raw_text.txt content.
 
-📝 NOTES
+# NOTES
 
 The application uses a simple Caesar cipher for encryption and decryption.
 
