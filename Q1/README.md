@@ -1,4 +1,4 @@
-#  Project Structure
+# Structure
 Q1/
 ├── data/
 │   └── raw_text.txt        # Sample plaintext input
