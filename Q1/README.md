@@ -1,12 +1,12 @@
-📂 Project Structure
+#  Project Structure
 Q1/
 ├── data/
-│ └── raw_text.txt                 # Sample plaintext input
+│   └── raw_text.txt        # Sample plaintext input
 └── src/
-├── init.py
-├── gui.py                         # GUI application logic
-├── encryption.py                  # Encryption and decryption functions
-└── file_operations.py             # Utility functions for file handling
+    ├── __init__.py         # Marks 'src' as a Python package
+    ├── gui.py              # GUI application logic
+    ├── encryption.py       # Encryption and decryption functions
+    └── file_operations.py  # Utility functions for file handling
 
 # Running the Application
 
